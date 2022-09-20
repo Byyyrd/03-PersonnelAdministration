@@ -17,6 +17,10 @@ public class Employee {
         this.salary = salary;
     }
 
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
     public void setWorkYears(int workYears) {
         this.workYears = workYears;
     }

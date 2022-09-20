@@ -4,6 +4,7 @@ public class MainProgram {
 
         Employee e2 = new Employee("Eulberg","Samuel","04.05.2007","Tennis Profi","X",'m',15,15,10,1000000000);
         e1.setWorkYears(2);
+        e2.setDepartment("19D");
         System.out.println(e1.getForename() + e1.getName() + e1.getBirthdate() + e1.getSpecialties() + e1.getDepartment() + e1.getGender() + e1.getAge() + e1.getWorkYears()+ e1.getWeight() + e1.getSalary());
     }
 }
