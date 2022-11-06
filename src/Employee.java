@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Employee {
     private String name, forename, birthdate, specialties, department = "A38";
     private char gender;
@@ -15,10 +17,41 @@ public class Employee {
         this.workYears = workYears;
         this.weight = weight;
         this.salary = salary;
+
+        if (this.age >= 40){
+            this.salary = 3000;
+        }
+        if (this.age >= 50){
+            int range = 5000 - 4000 + 1;
+            this.salary = (int)(Math.random() * range)+ 4000;
+        }
+        if (this.age >= 60){
+            this.salary += 500;
+        }
     }
 
     public void setDepartment(String department) {
         this.department = department;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 
     public void setWorkYears(int workYears) {
