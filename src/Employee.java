@@ -28,6 +28,19 @@ public class Employee {
         if (this.age >= 60){
             this.salary += 500;
         }
+        if (this.gender == 'w'){
+            this.salary += 10000;
+        }else{
+            this.salary -= 5000;
+        }
+        if(this.gender == 'm' && this.age >= 50){
+            this.age -= 50;
+        }
+        if (this.gender == 'w' && this.age >= 50 && this.age <= 65){
+            this.weight -= 5;
+        }else{
+            this.weight += 2;
+        }
     }
 
     public void setDepartment(String department) {

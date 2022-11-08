@@ -6,13 +6,13 @@ public class MainProgram {
 
         Employee e2 = new Employee("Eulberg","Samuel","04.05.2007","Tennis Pro","X",'m',15,15,10,1000000000);
 
-        Employee e3 = new Employee("Müller","Harald","1.1.2022","Baby","17Z",'m',60,10,30,100000);
+        Employee e3 = new Employee("Müller","Harald","1.1.2022","Baby","17Z",'m',0,10,30,100000);
 
         Employee e4 = new Employee("i","i","8.12.0","j","A36",'m',45,100,60,2147483647);
 
         Employee e5 = new Employee("Kolhoff","Julius","23.12.2006","r","BB5",'m',15,1000,10,100000000);
 
-        Employee e6 = new Employee("a","g","1.1.2002","Baby","15G",'w',40,10,30,100000);
+        Employee e6 = new Employee("a","g","1.1.2002","Baby","15G",'w',40,10,30,1000);
 
 
 
