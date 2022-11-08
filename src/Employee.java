@@ -1,4 +1,4 @@
-import java.util.Random;
+
 
 public class Employee {
     private String name, forename, birthdate, specialties, department = "A38";
@@ -29,7 +29,16 @@ public class Employee {
             this.salary += 500;
         }
     }
-
+    public void loose1Kg(){
+        this.weight -= 1;
+    }
+    public String printName(Boolean forename){
+        if(forename){
+            return this.forename;
+        }else{
+            return this.name;
+        }
+    }
     public void setDepartment(String department) {
         this.department = department;
     }
