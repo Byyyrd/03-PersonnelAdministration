@@ -45,9 +45,9 @@ public class Employee {
     public void loose1Kg(){
         this.weight -= 1;
     }
-    public String printName(Boolean forename){
-        if(forename){
-            return this.forename;
+    public String returnName(Boolean withForename){
+        if(withForename){
+            return this.name + "" + this.forename;
         }else{
             return this.name;
         }
